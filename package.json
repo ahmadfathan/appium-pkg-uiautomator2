@@ -1,0 +1,19 @@
+{
+  "name": "appium-pkg-uiautomator2",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "start-appium.js",
+  "scripts": {
+    "build": "pkg . --targets node18-win-x64 --output appium.exe"
+  },
+  "dependencies": {
+    "appium": "^2.19.0",
+    "appium-uiautomator2-driver": "^4.2.7"
+  },
+  "pkg": {
+    "scripts": [
+      "node_modules/appium/**/*",
+      "node_modules/appium-uiautomator2-driver/**/*"
+    ]
+  }
+}
