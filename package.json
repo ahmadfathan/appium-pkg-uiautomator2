@@ -14,6 +14,11 @@
     "scripts": [
       "node_modules/appium/**/*",
       "node_modules/appium-uiautomator2-driver/**/*"
+    ],
+    "assets": [
+      "node_modules/appium-uiautomator2-driver/**/*.json",
+      "node_modules/appium-uiautomator2-driver/**/*.xml",
+      "node_modules/appium-uiautomator2-driver/**/*.jar"
     ]
   }
 }
